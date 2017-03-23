@@ -1,0 +1,95 @@
+
+
+
+
+
+
+  Wed Mar 22 21:16:44 ~/wdi/MyHomework (master)
+$ ls
+checkpoint-00		checkpoint-00-master	to_oz
+  Wed Mar 22 21:16:45 ~/wdi/MyHomework (master)
+$ mkdir House
+  Wed Mar 22 21:16:57 ~/wdi/MyHomework (master)
+$ touch Dorothy.txt Toto.txt
+  Wed Mar 22 21:17:20 ~/wdi/MyHomework (master)
+$ mv Dorothy.txt Toto.txt ./House
+  Wed Mar 22 21:18:09 ~/wdi/MyHomework (master)
+$ mkdir Oz
+  Wed Mar 22 21:18:33 ~/wdi/MyHomework (master)
+$ touch "Good Witch of the North" "Wicked Witch of the East" " Good Witch of the South" "Wicked Witch of the West"
+  Wed Mar 22 21:19:34 ~/wdi/MyHomework (master)
+$ mv "Good Witch of the North" "Wicked Witch of the East" " Good Witch of the South" "Wicked Witch of the West" ./Oz
+  Wed Mar 22 21:20:32 ~/wdi/MyHomework (master)
+$ cd Oz/
+  Wed Mar 22 21:21:02 ~/wdi/MyHomework/Oz (master)
+$ ls 
+ Good Witch of the South	Wicked Witch of the East
+Good Witch of the North		Wicked Witch of the West
+  Wed Mar 22 21:21:08 ~/wdi/MyHomework/Oz (master)
+$ rm Wicked\ Witch\ of\ the\ East 
+  Wed Mar 22 21:21:22 ~/wdi/MyHomework/Oz (master)
+$ ls
+ Good Witch of the South	Wicked Witch of the West
+Good Witch of the North
+  Wed Mar 22 21:21:25 ~/wdi/MyHomework/Oz (master)
+$ cd ..
+  Wed Mar 22 21:21:35 ~/wdi/MyHomework (master)
+$ cd House/
+  Wed Mar 22 21:21:51 ~/wdi/MyHomework/House (master)
+$ ls
+Dorothy.txt	Toto.txt
+  Wed Mar 22 21:22:40 ~/wdi/MyHomework/House (master)
+$ mv Dorothy.txt ./Oz
+  Wed Mar 22 21:22:56 ~/wdi/MyHomework/House (master)
+$ ls
+Dorothy		Toto.txt
+  Wed Mar 22 21:24:50 ~/wdi/MyHomework/House (master)
+$ mv Dorothy ./Oz/
+mv: rename Dorothy to ./Oz/: No such file or directory
+  Wed Mar 22 21:25:24 ~/wdi/MyHomework/House (master)
+$ mv Dorothy ../Oz/
+  Wed Mar 22 21:25:39 ~/wdi/MyHomework/House (master)
+$ cd ..
+  Wed Mar 22 21:25:51 ~/wdi/MyHomework (master)
+$ cd oz
+  Wed Mar 22 21:25:56 ~/wdi/MyHomework/oz (master)
+$ ls
+ Good Witch of the South	Good Witch of the North
+Dorothy				Wicked Witch of the West
+  Wed Mar 22 21:26:02 ~/wdi/MyHomework/oz (master)
+$ mkdir "Emerald City"
+  Wed Mar 22 21:26:44 ~/wdi/MyHomework/oz (master)
+$ rm Emerald\ City/
+rm: Emerald City/: is a directory
+  Wed Mar 22 21:27:18 ~/wdi/MyHomework/oz (master)
+$ ls
+ Good Witch of the South	Good Witch of the North
+Dorothy				Wicked Witch of the West
+Emerald City
+  Wed Mar 22 21:27:32 ~/wdi/MyHomework/oz (master)
+$ touch Scaracrow "Tin Man" "Cowardly Lion"
+  Wed Mar 22 21:28:32 ~/wdi/MyHomework/oz (master)
+$ ls
+ Good Witch of the South	Good Witch of the North
+Cowardly Lion			Scaracrow
+Dorothy				Tin Man
+Emerald City			Wicked Witch of the West
+  Wed Mar 22 21:28:36 ~/wdi/MyHomework/oz (master)
+$ mv "Tin Man" "Cowardly Lion" Scaracrow ./Emerald\ City/
+  Wed Mar 22 21:29:45 ~/wdi/MyHomework/oz (master)
+$ touch "Flying Monkeys"
+  Wed Mar 22 21:30:45 ~/wdi/MyHomework/oz (master)
+$ ls
+ Good Witch of the South	Flying Monkeys
+Dorothy				Good Witch of the North
+Emerald City			Wicked Witch of the West
+  Wed Mar 22 21:31:01 ~/wdi/MyHomework/oz (master)
+$ rm Wicked\ Witch\ of\ the\ West 
+  Wed Mar 22 21:31:14 ~/wdi/MyHomework/oz (master)
+$ echo >> "Diploma" Scaracrow
+  Wed Mar 22 21:35:49 ~/wdi/MyHomework/oz (master)
+$ echo >> "Heart Shaped Watch" "Tin Man"
+  Wed Mar 22 21:37:05 ~/wdi/MyHomework/oz (master)
+$ echo >> "Medal" "Cowardly Lion"
+  Wed Mar 22 21:37:40 ~/wdi/MyHomework/oz (master)
+$ 
