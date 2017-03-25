@@ -87,7 +87,7 @@ answer goes here
 What is Git, what problem does it solve? What is the difference between `git` and github?
 
 ```
-Git is a Repository for storing changes to a project that can be worked on by multiple users at the same time. Git is the program/software while Github is the repository mechanism. 
+Git is a Repository for storing changes to a project that can be worked on by multiple users at the same time. Git is the program/software while Github is the repository mechanism.
 
 ```
 
@@ -154,3 +154,5 @@ Write a CSS selector-rule that will select and apply styling to every `<li>` ins
 ```
 .skillz:{}
 ```
+
+...
